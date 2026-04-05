@@ -1,0 +1,3 @@
+host: redis-19656.crce283.ap-south-1-2.ec2.cloud.redislabs.com
+port: 19656
+password: Teql69S8y016YoTkJWTiAqOo2ioDjDvU
