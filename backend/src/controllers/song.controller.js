@@ -44,12 +44,12 @@ const getSongByMood = async (req, res) => {
 
 // geeting all songs
 const getAllsongContoller = async (req, res) => {
-  const user = req.user;
-  if (!user) {
-    return res.status({
-      message: "User not found",
-    });
-  }
+  // const user = req.user;
+  // if (!user) {
+  //   return res.status({
+  //     message: "User not found",
+  //   });
+  // }
   const songs = await songModel.find();
   res.status(200).json({
     message: "songs fetch success",
